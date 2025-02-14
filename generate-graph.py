@@ -8,3 +8,5 @@ for day in range(1, 365):
         os.system('git add .')
         os.system('git commit --date="'+day+'" -m "commit"')
 os.system('git push -u origin main ')
+
+
